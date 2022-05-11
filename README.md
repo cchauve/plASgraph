@@ -42,7 +42,7 @@ python3 plASgraph.py
 
 Optional:
 
--o STR   output.csv
+-o STR   full path to output file (.csv)
 
 --draw_graph
 
