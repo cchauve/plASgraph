@@ -54,5 +54,5 @@ PlASgraph predicts each contig as either plasmidic, chromosomal or ambiguous. Th
 #### Usage example (test set):
 
 ~~~
-python3 plASgraph.py example_data/c_freundii_assembly.gfa -o output.csv --draw_graph
+python3 plASgraph.py -i example_data/c_freundii_assembly.gfa -o output.csv --draw_graph
 ~~~
