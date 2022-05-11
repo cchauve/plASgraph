@@ -15,7 +15,7 @@ Identification of plasmids and plasmid genes from sequencing data is an importan
 git clone https://github.com/cchauve/plASgraph.git
 ~~~
 
-#### Required Python modules
+#### Required Python modules:
 
 All modules can be installed using pip.
 
@@ -42,19 +42,17 @@ python3 plASgraph.py
 
 Optional:
 
--o  STR   output.csv
+-o STR   output.csv
 
 --draw_graph
 
 ~~~
 
-plASgraph predicts each contig as either plasmidic, chromosomal or ambiguous. The output file contains four columns: I) the name of the contig, II) the plasmid score, III) the chromosome score and IV) the predicted label.
+PlASgraph predicts each contig as either plasmidic, chromosomal or ambiguous. The output file contains four columns: I) the name of the contig, II) the plasmid score, III) the chromosome score and IV) the predicted label.
 
 
-#### Usage example (test set)
+#### Usage example (test set):
 
 ~~~
-
 python3 plASgraph.py example_data/c_freundii_assembly.gfa -o output.csv --draw_graph
-
 ~~~
