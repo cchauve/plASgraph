@@ -23,6 +23,7 @@ All modules can be installed using pip.
   - Pandas  1.3.5+
   - NumPy  1.21.5+
   - Scikit-learn  0.23.1+
+  - Scipy 1.4.1+
   - Biopython  1.79+
   - Matplotlib  3.5.1+
   - TensorFlow  2.8.0+
