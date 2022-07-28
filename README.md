@@ -51,6 +51,9 @@ Optional:
 
 PlASgraph predicts each contig as either plasmidic, chromosomal or ambiguous. The output file contains four columns: I) the name of the contig, II) the plasmid score, III) the chromosome score and IV) the predicted label.
 
+## Citation
+Janik Sielemann, Katharina Sielemann, Broňa Brejová, Tomas Vinar, Cedric Chauve; "plASgraph - using graph neural networks to detect plasmid contigs from an assembly graph", bioRxiv 2022.05.24.493339; https://doi.org/10.1101/2022.05.24.493339
+
 
 #### Usage example (test set):
 
